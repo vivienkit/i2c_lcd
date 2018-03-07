@@ -176,5 +176,4 @@ class lcd:
       self.lcd_write(0x40);
       for char in fontdata:
          for line in char:
-            self.lcd_write_char(line)         
-         
+            self.lcd_write_char(line)
